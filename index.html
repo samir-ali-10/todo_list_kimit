@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,11 +9,26 @@
     <link rel="stylesheet" href="css/style.css">
     <title>To Do List</title>
 </head>
+
 <body>
-    
-    
+
+    <div class="row g-3 containing pt-4 justify-content-center bg-light">
+        <div class="col-auto">
+            <label for="input_task" class="visually-hidden">Enter your Item</label>
+            <input type="text" class="form-control" id="input_task" placeholder="Enter Your Item">
+        </div>
+        <div class="col-auto">
+            <button type="submit" class="btn btn-primary mb-3">Add Task</button>
+        </div>
+        <div class="row g-3 justify-content-center">
+            <div class="col-auto">
+                <ol></ol>
+            </div>
+        </div>
+    </div>
 
 
     <script src="js/main.js"></script>
 </body>
+
 </html>
