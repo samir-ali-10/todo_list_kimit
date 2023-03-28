@@ -4,12 +4,12 @@ let inputTask = document.getElementById("input_task"),
 
 
 btn.onclick = function () {
-    if(inputTask.value == " ") {
+    if(inputTask.value == "" || inputTask.value == " ") {
         alert("Input Invalid");
     }
     else {
         outputTask.innerHTML += `<li>${inputTask.value}</li>`;
-        inputTask.value = " ";
+        inputTask.value = "";
         inputTask.focus();
     }
 }
