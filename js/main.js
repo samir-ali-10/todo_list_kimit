@@ -11,5 +11,6 @@ btn.onclick = function () {
         outputTask.innerHTML += `<li>${inputTask.value}</li>`;
         inputTask.value = "";
         inputTask.focus();
+        
     }
 }
