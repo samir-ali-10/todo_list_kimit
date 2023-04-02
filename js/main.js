@@ -4,7 +4,7 @@ let inputTask = document.getElementById("input_task"),
 
 
 btn.onclick = function () {
-    if(inputTask.value == "" || inputTask.value == " ") {
+    if(inputTask.value.trim() == "") {
         alert("Input Invalid");
     }
     else {
